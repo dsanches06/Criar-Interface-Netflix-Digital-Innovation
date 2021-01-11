@@ -14,7 +14,7 @@
 /* elemento base */
 body {
   background: var(--preta); /* chamar a variavel com var(--variavel)*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Times, serif;
   color: #fff;
 }
 
@@ -47,7 +47,7 @@ header nav a:hover {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url("../img/capa-filme.png");
-  height: 400px;
+  height: 420px;
   background-size: cover; /* cover usa para cobrir o fundo do elemento*/
   display: flex;
   flex-direction: column;
@@ -99,4 +99,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrousel-filmes{
+  margin-top: 5px;
 }
